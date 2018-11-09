@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Coba</string>
+    <string name="count">Tambah</string>
+    <string name="click_me">Click Me</string>
+    <string name="textview_label">0</string>
+    <string name="message">Hallo</string>
+    <string name="button">Kurang</string>
+</resources>
