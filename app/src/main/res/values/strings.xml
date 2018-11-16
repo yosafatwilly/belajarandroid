@@ -3,6 +3,9 @@
     <string name="count">Tambah</string>
     <string name="click_me">Click Me</string>
     <string name="textview_label">0</string>
-    <string name="message">Hallo</string>
+    <string name="message">Hello World</string>
     <string name="button">Kurang</string>
+    <string name="change_activity">Send</string>
+    <string name="text_from_main_activity">Text From Main Activity :</string>
+    <string name="kosong"> </string>
 </resources>

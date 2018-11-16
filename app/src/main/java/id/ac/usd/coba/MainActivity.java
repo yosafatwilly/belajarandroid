@@ -1,5 +1,6 @@
 package id.ac.usd.coba;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -40,5 +41,15 @@ public class MainActivity extends AppCompatActivity {
         if (view != null){
             Textview.setText(Integer.toString(Count));
         }
+    }
+
+    public final static String EXTRA_MESSAGE =
+            "id.ac.usd.coba.MESSAGE";
+    public void sendAction(View view) {
+        Intent messageIntent = new Intent(this, SecondActivity.class);
+        TextView tv = findViewById(R.id.editText);
+        String field = tv.getText().toString();
+        messageIntent.putExtra(EXTRA_MESSAGE, field);
+        startActivity(messageIntent);
     }
 }
